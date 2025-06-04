@@ -54,4 +54,4 @@ The model demonstrated strong performance across all tumor categories. Further i
 ## 📂 Files in This Repository
 
 - `main.py` – contains the complete training and evaluation pipeline
-- `report.pdf` – full project documentation including figures and analysis
+- `Raport.pdf` – full project documentation including figures and analysis
