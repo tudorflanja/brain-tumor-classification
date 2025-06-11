@@ -1,4 +1,4 @@
-# Brain Tumor Classification (MRI) using CNN
+# 🧬 Brain Tumor Classification (MRI) using CNN
 
 This project implements a deep learning pipeline for classifying brain tumors from MRI images using a Convolutional Neural Network (CNN). The dataset includes four categories: `glioma_tumor`, `meningioma_tumor`, `pituitary_tumor`, and `no_tumor`.
 
