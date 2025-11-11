@@ -51,6 +51,7 @@ A custom CNN was trained on the dataset using:
 
 - ## 📂 Files in This Repository
 
+- `README.md` – includes an overview of the project, setup instructions, and usage guide
 - `Raport.pdf` – full project documentation including figures and analysis
 - `main.py` – contains the complete training and evaluation pipeline
 
