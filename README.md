@@ -1,10 +1,10 @@
-# 🧬 Brain Tumor Classification (MRI) using CNN
+# Brain Tumor Classification (MRI) using CNN
 
 This project implements a deep learning pipeline for classifying brain tumors from MRI images using a Convolutional Neural Network (CNN). The dataset includes four categories: `glioma_tumor`, `meningioma_tumor`, `pituitary_tumor`, and `no_tumor`.
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 The dataset was preprocessed and structured using a custom PyTorch Dataset class with lazy loading. Images were resized, normalized, and converted to tensors to ensure compatibility with the CNN model.
 
@@ -14,7 +14,7 @@ The dataset was preprocessed and structured using a custom PyTorch Dataset class
 
 ---
 
-## ⚙️ Preprocessing Steps
+## Preprocessing Steps
 
 - Converted grayscale images to RGB
 - Resized all images to 256×256 pixels
@@ -28,13 +28,13 @@ The dataset was preprocessed and structured using a custom PyTorch Dataset class
 
 ---
 
-## 📊 Class Distribution
+## Class Distribution
 
 Each data subset (train, validation, test) was analyzed for class balance. While mostly balanced, minor variations were noted. Strategies like data augmentation and class weighting are recommended to mitigate imbalance.
 
 ---
 
-## 🧠 CNN Model
+## CNN Model
 
 A custom CNN was trained on the dataset using:
 - Loss function: `CrossEntropyLoss`
@@ -49,7 +49,7 @@ A custom CNN was trained on the dataset using:
 
 ---
 
-- ## 📂 Files in This Repository
+- ## Files in This Repository
 
 - `README.md` – includes an overview of the project, setup instructions, and usage guide
 - `Raport.pdf` – full project documentation including figures and analysis
@@ -57,7 +57,7 @@ A custom CNN was trained on the dataset using:
 
 ---
 
-## 🖼️ Visualizations
+## Visualizations
 
 Included visual examples:
 - Input image samples per class
@@ -67,7 +67,7 @@ Included visual examples:
 
 ---
 
-## ▶️ How to Run the Project in Google Colab
+## How to Run the Project in Google Colab
 
 You can run this project interactively using Google Colab by following these steps:
 
@@ -103,10 +103,10 @@ You can run this project interactively using Google Colab by following these ste
 5. **Visualize Results**  
    Plots for loss, accuracy, and the confusion matrix will be displayed inline in the notebook.
 
-> 💡 Google Colab provides free access to GPUs via `Runtime > Change runtime type > GPU`, which can accelerate training significantly.
+> Google Colab provides free access to GPUs via `Runtime > Change runtime type > GPU`, which can accelerate training significantly.
 
 ---
 
-## 📝 Conclusion
+## Conclusion
 
 The model demonstrated strong performance across all tumor categories. Further improvements can be achieved through advanced data augmentation and hyperparameter tuning.
